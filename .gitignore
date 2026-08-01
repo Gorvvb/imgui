@@ -3,6 +3,19 @@
 .claude
 .vscode
 
+.vs/
+*.sln
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.csproj
+
+bin/
+**/bin/
+bin-int/
+**/bin-int/
+
 ## Dear ImGui artifacts
 imgui.ini
 imgui*.ini
@@ -56,6 +69,19 @@ examples/example_sdl3_wgpu/web/*
 ## JetBrains IDE artifacts
 .idea
 cmake-build-*
+
+.vs/
+*.sln
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.csproj
+
+bin/
+**/bin/
+bin-int/
+**/bin-int/
 
 ## Unix executables from our example Makefiles
 examples/example_apple_metal/example_apple_metal
