@@ -39,7 +39,8 @@ project "ImGui"
 
 	defines
 	{
-		"GLFW_INCLUDE_NONE"
+		"GLFW_INCLUDE_NONE",
+		"VK_NO_PROTOTYPES"
 	}
 
 	filter "system:windows"
